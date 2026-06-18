@@ -1,0 +1,17 @@
+# Streamlit Cloud 部署配置
+# 参考: https://docs.streamlit.io/develop/concepts/configuration/theming
+
+[theme]
+primaryColor = "#1f4e79"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f7f9fc"
+textColor = "#1f2937"
+font = "sans serif"
+
+[server]
+maxUploadSize = 200
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
